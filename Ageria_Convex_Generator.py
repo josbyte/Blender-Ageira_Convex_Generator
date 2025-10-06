@@ -430,11 +430,11 @@ class OBJECT_OT_coacd_preset_veryhigh(bpy.types.Operator):
         self.report({'INFO'}, "Preset Very High applied")
         return {'FINISHED'}
 
-# ----------------- Panel (ahora en su propia pestaña 'CoACD') -----------------
+# ----------------- Panel -----------------
 class VIEW3D_PT_convex_decomposition(bpy.types.Panel):
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = "CoACD"      # <- Aquí: pestaña propia en la barra lateral (N-panel)
+    bl_category = "CoACD"     
     bl_label = "Convex Decomposition"
 
     def draw(self, context):

@@ -26,7 +26,7 @@ Key Features:
 > [!CAUTION]
 > You must install these packages on the python install that comes with Blender
 
-To do this, head to your blender installation, there in "python\bin" there should be a python.exe, if it doesn't not have a pip.exe, you must init it
+To do this, head to your blender installation, there in "python\bin" there should be a python.exe, if it doesn't have a pip.exe, you must init it
 Download this file and put it next to that python.exe
 [Download get-pip.py](https://bootstrap.pypa.io/get-pip.py)
 

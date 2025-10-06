@@ -38,7 +38,7 @@ Then you do:
 Then you can install packages on it.
 
 ## Installation
-1. Download the `GKPPVuJ.py` file.
+1. Download the `Ageria_Convex_Generator.py` file.
 2. In Blender, go to Edit > Preferences > Add-ons.
 3. Click "Install..." and select the file.
 4. Activate the "Precision Convex Decomposition (CoACD)" add-on.
@@ -46,7 +46,7 @@ Then you can install packages on it.
 
 ## Usage
 1. Select one or more mesh objects in Object mode.
-2. Go to the CoACD panel in the sidebar.
+2. Go to the tool panel in the sidebar.
 3. Choose a preset or adjust parameters manually.
 4. Click "Convex Decomposition".
 5. The progress will be shown in the lower left corner. Press ESC to cancel.

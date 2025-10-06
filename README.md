@@ -15,13 +15,27 @@ Key Features:
 - Threaded rendering to avoid blocking the Blender interface.
 - Progress overlay in the bottom-left corner.
 - Predefined presets for different levels of detail.
-- Blender Flatpak support.
+- Blender Flatpak support (Check comments at the start of file).
 - Automatic mesh validation and triangulation.
 - Advanced options such as hull decimation and merging.
 
 ## Requirements
 - Blender 4.5.2 or higher.
 - Python libraries: trimesh, coacd, numpy (installed automatically if not present).
+  
+> [!CAUTION]
+> !! You must install these packages on the python install that comes with Blender!!
+
+To do this, head to your blender installation, there in "python\bin" there should be a python.exe, if it doesn't not have a pip.exe, you must init it
+Download this file and put it next to that python.exe
+[Download get-pip.py](https://bootstrap.pypa.io/get-pip.py)
+
+Then you do:
+```bash
+(blender python dir)python.exe get-pip.py
+```
+
+Then you can install packages on it.
 
 ## Installation
 1. Download the `GKPPVuJ.py` file.
